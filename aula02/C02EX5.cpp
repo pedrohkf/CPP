@@ -12,7 +12,7 @@ int main(void)
 	setlocale(LC_ALL, "Portuguese_Brazil.1252"); 
 	SetConsoleCP(1252);
 	
-	wcout << L"Ola, \nQual sua graça? ";
+	wcout << L"Olá, \nQual sua graça? ";
 	getline(wcin, nome);
 	
 	cout << endl;
