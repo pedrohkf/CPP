@@ -8,6 +8,9 @@ using namespace std;
 int main(void)
 {
   int32_t num1, num2;
+  // less = -1
+  // equal = 0
+  // greater = 1
   auto resultado {strong_ordering::equal};
 
   cout << "Informe primeiro numero ..: ";
@@ -16,8 +19,9 @@ int main(void)
 
   cout << "Informe segundo numero ...: ";
   cin >> num2;
-  cin.ignore(80, '\n');
+  cin.ignore(80, '\n'); 
 
+  // space ship
   resultado = num1 <=> num2;
 
   if (resultado < 0)
