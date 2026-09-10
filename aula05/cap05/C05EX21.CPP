@@ -1,6 +1,6 @@
 // C05EX21.CPP
 
-#include "meuspc.h"
+#include "meuspc.h" // diretiva
 
 using namespace testespc;
 

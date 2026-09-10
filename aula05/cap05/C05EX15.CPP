@@ -7,7 +7,7 @@ using namespace std;
 extern int16_t a;
 extern int16_t b;
 
-extern void adicao(void);
+extern void adicao(void); // procedimento
 
 int main(void)
 {
